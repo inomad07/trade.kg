@@ -1,0 +1,81 @@
+
+option {
+    background: #4693db;
+}
+
+.searchfield {
+    /*background: #ededed;*/
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 5px 0 10px 35px;
+    width: 40px;
+    border-radius: 4px;
+    transition: all .5s;
+    color: transparent;
+    cursor: pointer;
+    position: relative;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 100%;
+    outline: none;
+    -webkit-appearance: textfield;
+}
+
+.searchfield:hover {
+    background-color: #4693db;
+}
+
+.searchfield:focus {
+    width: 150px;
+    padding-right: 36px;
+    color: black;
+    cursor: auto;
+    background-color: lightskyblue;
+    border-color: #4693db;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.searchfield::-webkit-search-decoration, .searchfield::-webkit-search-cancel-button {
+    display: none;
+}
+
+.searchfield:-moz-placeholder {
+    color: transparent;
+}
+
+.searchfield::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.searchbox {
+    position: relative;
+    float:left;
+    margin-top: 5px;
+    margin-left: 35px;
+}
+
+.searchbox:before {
+    content: "\f002";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-family: FontAwesome;
+    width: 40px;
+    text-align: center;
+    font-size: 1.5em;
+    z-index: 2;
+    pointer-events: none;
+    color: #fff;
+}
+
+.search_box {
+    width: 100px;
+    height: 30px;
+    background: #123;
+    position: absolute;
+    visibility: collapse;
+}
+
+.search_box >.search_box:focus {
+    visibility: visible;
+}

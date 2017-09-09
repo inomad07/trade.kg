@@ -1,0 +1,42 @@
+.local {
+    height: 30px;
+    width: 40px;
+    color: #fff;
+    float: right;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    background: transparent;
+    margin-right: 13px;
+}
+
+.local select {
+    padding: 5px 15px 10px 8px;
+    width: 115%;
+    border: #FFF;
+    box-shadow: none;
+    background: transparent;
+    -webkit-appearance: none;
+}
+
+.local select:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+.local select:hover {
+    cursor: pointer;
+}
+
+.col-sm-6 li a {
+    color: #FFF!important;
+}
+
+.col-sm-6 li ul {
+    background: #4693db;
+}
+
+.col-sm-6 li ul a:hover {
+    background: lightskyblue;
+}

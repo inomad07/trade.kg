@@ -1,0 +1,74 @@
+.partners {
+    background-color: #0565aa;
+    color: #FFF;
+    width: 100%;
+    display: inline-block;
+    padding: 7px 12px;
+    text-align: left;
+}
+
+.partners a {
+    font-size: 14px;
+    color:#FFF;
+    padding-left: 15px;
+}
+
+.partners:hover {
+    background-color: #4693db;
+}
+
+.form_container {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.29);
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.29);
+}
+
+.left_mini, .right_mini{
+    position: absolute;
+    cursor: pointer;
+    top: 45%;
+    transform: translateY(-45%);
+    width: 0px;
+    height: 0px;
+    margin: 5px;
+    opacity: 0.4;
+    transition: all .5s ease-in;
+    -webkit-transition: all .5s ease-in;
+}
+
+.left_mini{
+    left: 0px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-right: 27px solid #ccc;
+}
+
+.right_mini{
+    right: 0px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 27px solid #ccc;
+}
+
+.left_mini:hover, .right_mini:hover{
+    opacity: 1;
+}
+
+.form_container .slideContainer{
+    white-space: nowrap;
+}
+
+.form_container .slideContainer .slide{
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 20%;
+    background:cover;
+}
+
